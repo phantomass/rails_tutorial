@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app1_development
+  pool: 5
+  username: phantomass2008
+  password: "393187"
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app1_test
+  pool: 5
+  username: phantomass2008
+  password: "393187"
+ 
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app1_production
+  pool: 5
+  username: phantomass2008
+  password: "393187"
