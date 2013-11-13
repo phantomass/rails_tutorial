@@ -9,7 +9,6 @@ gem 'bcrypt-ruby', '~> 3.0.1'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem "database_cleaner"
 
 group :development, :test do
   gem 'rspec-rails'
@@ -18,6 +17,7 @@ end
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem "database_cleaner"
 end
 
 group :assets do
