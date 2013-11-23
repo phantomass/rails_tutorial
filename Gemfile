@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'pg'
-gem 'bootstrap-sass', '2.1'
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'rails_12factor', group: :production
 gem 'bcrypt-ruby', '~> 3.0.1'
 gem 'faker'
